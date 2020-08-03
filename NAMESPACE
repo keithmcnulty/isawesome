@@ -1,2 +1,2 @@
-exportPattern("^[[:alpha:]]+") # any function whose name starts with an ASCII character is exported
+exportPattern("^[[:a-z:]]+") # any function whose name starts with a-z character is exported
 importFrom("magrittr", "%>%") # import the pipe operator from magrittr
