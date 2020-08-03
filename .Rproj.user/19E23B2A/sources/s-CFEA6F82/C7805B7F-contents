@@ -1,2 +1,0 @@
-exportPattern("^[[:alpha:]]+") # any function whose name starts with an ASCII character is exported
-importFrom("magrittr", "%>%") # import the pipe operator from magrittr
