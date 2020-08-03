@@ -14,9 +14,12 @@ Author: c(
 Maintainer: Jiena McLellan <jienagu90@gmail.com>
 Description: This package creates functions which pay you compliments.  
   It is created as a minimal example for a training on R package creation.
-License: CC0
-Depends:
+Imports:
   magrittr
+License: CC0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    stringi
