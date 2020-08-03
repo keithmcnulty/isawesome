@@ -14,10 +14,10 @@ isawesome(name = "Someone", alternative = FALSE, return_message = TRUE)
 \item{return_message}{A logical indicating whether a message should be returned.  If FALSE a character string will be returned.}
 }
 \value{
-A message that pays `name` a compliment.
+A message that pays a compliment.
 }
 \description{
-`isawesome()` displays a message that compliments the input.
+Displays a message that compliments the input.
 }
 \examples{
 isawesome("Randy 'Macho Man' Savage")
