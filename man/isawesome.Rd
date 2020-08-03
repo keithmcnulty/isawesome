@@ -4,12 +4,14 @@
 \alias{isawesome}
 \title{Gives compliments}
 \usage{
-isawesome(name = "Someone", alternative = FALSE)
+isawesome(name = "Someone", alternative = FALSE, return_message = TRUE)
 }
 \arguments{
 \item{name}{A character string of the person or object to be complimented}
 
 \item{alternative}{A logical indicating whether alternatives to 'is awesome' should be used}
+
+\item{return_message}{A logical indicating whether a message should be returned.  If FALSE a character string will be returned.}
 }
 \value{
 A message that pays `name` a compliment.
@@ -19,4 +21,5 @@ A message that pays `name` a compliment.
 }
 \examples{
 isawesome("Randy 'Macho Man' Savage")
+isawesome("Hulk Hogan", alternative = TRUE)
 }
