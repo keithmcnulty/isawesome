@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R build
+status](https://github.com/keithmcnulty/isawesome/workflows/R-CMD-check/badge.svg)](https://github.com/keithmcnulty/isawesome/actions)
 <!-- badges: end -->
 
 The goal of isawesome is to pay compliments to people or things. It is
