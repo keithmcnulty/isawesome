@@ -17,7 +17,7 @@ isawesome(name = "Someone", alternative = FALSE, return_message = TRUE)
 A message that pays a compliment.
 }
 \description{
-Displays a message that compliments the input.
+Displays a message that pays compliments.
 }
 \examples{
 isawesome("Randy 'Macho Man' Savage")

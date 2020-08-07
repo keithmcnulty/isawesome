@@ -1,7 +1,7 @@
 #' Gives compliments
 #'
 #' @description
-#' Displays a message that compliments the input.
+#' Displays a message that pays compliments.
 #'
 #' @param name A character string of the person or object to be complimented
 #' @param alternative A logical indicating whether alternatives to 'is awesome' should be used
